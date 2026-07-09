@@ -27,7 +27,7 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ ngày 20/04/2026 đến ngày 12/07/2026
 
-{{< figure src="/images/anh.png" alt="Ảnh đại diện của bạn" >}}
+![Profile Picture](/project-aws/images/anh.png)
 
 ### Nội dung báo cáo
 

@@ -27,7 +27,7 @@ chapter: false
 
 &emsp; **Internship Duration:** From April 20, 2026 to July 12 , 2026
 
-{{< figure src="/images/anh.png" alt="Your profile picture" >}}
+![Profile Picture](/project-aws/images/anh.png)
 
 ### Report Content
 

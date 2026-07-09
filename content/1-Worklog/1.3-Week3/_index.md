@@ -1,57 +1,37 @@
 ---
 title: "Week 3 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-05-04
+weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 3 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+- Understand Serverless architecture on AWS.
+- Get familiar with AWS Lambda and Amazon API Gateway.
+- Practice building basic APIs using Node.js.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task                                                                                                                  | Start Date | Completion Date | Reference Material                     |
+| --- | --------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | -------------------------------------- |
+| 2   | - Learn about the Serverless model.<br>- Role of AWS Lambda in the system.<br>- Get familiar with Node.js Runtime.    | 04/05/2026 | 04/05/2026      | https://docs.aws.amazon.com/lambda     |
+| 3   | - Create your first Lambda Function.<br>- Write a simple handler function using Node.js.<br>- Execute Test Event.     | 05/05/2026 | 05/05/2026      | AWS Documentation                      |
+| 4   | - Learn about Amazon REST API Gateway.<br>- Create an API and connect it with Lambda.<br>- Deploy the API.            | 06/05/2026 | 06/05/2026      | https://docs.aws.amazon.com/apigateway |
+| 5   | - Test API using Postman.<br>- Send GET and POST Requests.<br>- Standardize JSON Response.                            | 07/05/2026 | 07/05/2026      | https://www.postman.com                |
+| 6   | - Learn about Amazon CloudWatch Logs.<br>- Monitor Lambda execution logs.<br>- Debug basic errors during development. | 08/05/2026 | 08/05/2026      | https://docs.aws.amazon.com/cloudwatch |
 
 ### Week 3 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Understand Serverless architecture and benefits of deploying on AWS.
 
-* Successfully created and configured an AWS Free Tier account.
+- Successfully create a Lambda Function using Node.js.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+- Connect AWS Lambda with Amazon API Gateway to build REST API.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+- Perform API testing using Postman.
 
-* Used AWS CLI to perform basic operations such as:
+- Know how to monitor logs and handle errors through Amazon CloudWatch.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- Able to build and deploy basic Serverless APIs on AWS.

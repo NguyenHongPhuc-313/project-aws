@@ -1,59 +1,32 @@
 ---
 title: "Worklog Tuần 2"
-date: 2024-01-01
-weight: 1
+date: 2026-04-27
+weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 2:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Tìm hiểu các dịch vụ phục vụ triển khai giao diện và xác thực người dùng trên AWS.
+- Thực hành triển khai website tĩnh trên Amazon S3.
+- Hiểu cơ chế hoạt động của CloudFront, WAF và Amazon Cognito.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc                                                                                             | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                         |
+| --- | ----------------------------------------------------------------------------------------------------- | ------------ | --------------- | -------------------------------------- |
+| 2   | - Tìm hiểu Amazon S3.<br>- Bucket, Object và Storage Class.<br>- Bucket Policy và quyền truy cập.     | 27/04/2026   | 27/04/2026      | https://docs.aws.amazon.com/s3         |
+| 3   | - Thực hành tạo S3 Bucket.<br>- Upload website tĩnh.<br>- Cấu hình Static Website Hosting.            | 28/04/2026   | 28/04/2026      | AWS Documentation                      |
+| 4   | - Tìm hiểu Amazon CloudFront.<br>- Tạo Distribution.<br>- Kết nối CloudFront với S3.                  | 29/04/2026   | 29/04/2026      | https://docs.aws.amazon.com/cloudfront |
+| 5   | - Tìm hiểu AWS WAF.<br>- Web ACL.<br>- Các Rule cơ bản bảo vệ ứng dụng web.                           | 30/04/2026   | 30/04/2026      | https://docs.aws.amazon.com/waf        |
+| 6   | - Tìm hiểu Amazon Cognito.<br>- User Pool.<br>- App Client.<br>- Thực hành tạo người dùng thử nghiệm. | 01/05/2026   | 01/05/2026      | https://docs.aws.amazon.com/cognito    |
 
 ### Kết quả đạt được tuần 2:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Hiểu vai trò của Amazon S3 trong việc lưu trữ dữ liệu và triển khai website tĩnh.
+- Tạo và cấu hình thành công S3 Bucket.
+- Biết cách sử dụng CloudFront để phân phối nội dung.
+- Hiểu chức năng của AWS WAF trong việc bảo vệ ứng dụng.
+- Làm quen với Amazon Cognito và quy trình xác thực người dùng.
+- Nắm được mối liên hệ giữa S3, CloudFront và Cognito trong kiến trúc hệ thống.

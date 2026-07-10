@@ -63,9 +63,7 @@ Hiệu quả đầu tư kỳ vọng bao gồm chi phí lưu trữ thấp hơn, t
 
 ---
 
-## 3. Sơ đồ kiến trúc hệ thống
-
-![Diagram Picture](/project-aws/images/2-Proposal/webquiz_architecture.png)
+## 3. Kiến trúc giải pháp
 SyncQuiz áp dụng kiến trúc Serverless. Frontend được deploy lên Amazon S3 và phân phối toàn cầu qua Amazon CloudFront. Người dùng truy cập ứng dụng web thông qua CloudFront. Xác thực người dùng được quản lý bởi Amazon Cognito.
 
 Backend được chia nhỏ thành nhiều hàm Lambda. HTTP API được dùng cho các thao tác về quiz và phòng đấu, trong khi WebSocket API được sử dụng cho luồng chơi game trực tiếp. DynamoDB lưu trữ toàn bộ dữ liệu ứng dụng, bao gồm người dùng, quiz, câu hỏi, phòng đấu, kết nối active, trạng thái game và kết quả cuối cùng. EventBridge kết nối các sự kiện trong game với các hàm xử lý nền như tính điểm và lưu kết quả.

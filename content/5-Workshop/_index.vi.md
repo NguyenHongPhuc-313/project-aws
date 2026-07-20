@@ -36,3 +36,4 @@ Bạn sẽ học cách:
 11. [Giám sát CloudWatch & Dashboard](5.11-Monitoring-Dashboard/)
 12. [Kiểm thử hệ thống](5.12-Testing/)
 13. [Dọn dẹp tài nguyên](5.13-Cleanup/)
+14. [Link Project của nhóm](5.14-Link-Project/)

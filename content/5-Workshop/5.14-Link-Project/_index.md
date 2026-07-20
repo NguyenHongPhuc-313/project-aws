@@ -1,0 +1,1 @@
+https://syncquiz-frontend.onrender.com

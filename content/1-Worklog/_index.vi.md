@@ -35,4 +35,4 @@ Lộ trình được cấu trúc bài bản qua từng tuần với nội dung n
 
 **Tuần 11:** [Tích hợp, kiểm thử và tối ưu toàn bộ các chức năng.](1.11-week11/)
 
-**Tuần 12:** [Làm công việc N...](1.12-week12/)
+**Tuần 12:** [Triển khai, hoàn thành tài liệu, báo cáo kết quả](1.12-week12/)

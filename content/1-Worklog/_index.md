@@ -32,4 +32,4 @@ The roadmap is structured systematically through each week with the following co
 
 **Week 11:** [Integration, testing, and optimizing all features.](1.11-week11/)
 
-**Week 12:** [Doing task N...](1.12-week12/)
+**Week 12:** [Deployment, Documentation Completion, and Final Project Reporting](1.12-week12/)

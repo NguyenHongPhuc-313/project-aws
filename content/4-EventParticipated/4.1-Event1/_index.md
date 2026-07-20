@@ -29,7 +29,7 @@ The event featured many FCAJ members sharing what they had experienced.
 
 - Quynh Nhu bravely stood up on stage to share her story of overcoming insecurity and becoming confident in front of many people.
 
-#### 3) A founder of the Tử Vi Đại Việt website
+#### 3) Quan founder of the Tử Vi Đại Việt website
 
 - He introduced the features of his website and what it is used for.
 

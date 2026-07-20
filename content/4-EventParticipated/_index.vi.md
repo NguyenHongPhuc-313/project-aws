@@ -19,7 +19,13 @@ Trong quá trình thực tập, em đã tham gia 1 events, với mỗi event là
 
 
 
-### 
+### [Event 2](4.2-Event2/)
+&emsp;**Tên sự kiện:** competition between groups (20/06/2026)
 
+&emsp;**Thời gian:** 09:00 ngày 20/06/2026
+
+&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
+
+&emsp;**Vai trò trong sự kiện:** Người tham dự 
 
 
